@@ -1,0 +1,677 @@
+[
+  {
+    "page": 1,
+    "logical_name": "hero-us-led-world",
+    "alt_text": "Hero us led world",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "hero-us-led-world-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "hero-us-led-world",
+        "width": 1600,
+        "webp": "hero-us-led-world-1600.webp",
+        "jpg": "hero-us-led-world-1600.jpg"
+      },
+      {
+        "logical_name": "hero-us-led-world",
+        "width": 1024,
+        "webp": "hero-us-led-world-1024.webp",
+        "jpg": "hero-us-led-world-1024.jpg"
+      },
+      {
+        "logical_name": "hero-us-led-world",
+        "width": 640,
+        "webp": "hero-us-led-world-640.webp",
+        "jpg": "hero-us-led-world-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "logical_name": "overview-has-us-been-good",
+    "alt_text": "Overview has us been good",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "overview-has-us-been-good-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "overview-has-us-been-good",
+        "width": 1600,
+        "webp": "overview-has-us-been-good-1600.webp",
+        "jpg": "overview-has-us-been-good-1600.jpg"
+      },
+      {
+        "logical_name": "overview-has-us-been-good",
+        "width": 1024,
+        "webp": "overview-has-us-been-good-1024.webp",
+        "jpg": "overview-has-us-been-good-1024.jpg"
+      },
+      {
+        "logical_name": "overview-has-us-been-good",
+        "width": 640,
+        "webp": "overview-has-us-been-good-640.webp",
+        "jpg": "overview-has-us-been-good-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "logical_name": "conflict-deaths-per-capita",
+    "alt_text": "Conflict deaths per capita",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "conflict-deaths-per-capita-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "conflict-deaths-per-capita",
+        "width": 1600,
+        "webp": "conflict-deaths-per-capita-1600.webp",
+        "jpg": "conflict-deaths-per-capita-1600.jpg"
+      },
+      {
+        "logical_name": "conflict-deaths-per-capita",
+        "width": 1024,
+        "webp": "conflict-deaths-per-capita-1024.webp",
+        "jpg": "conflict-deaths-per-capita-1024.jpg"
+      },
+      {
+        "logical_name": "conflict-deaths-per-capita",
+        "width": 640,
+        "webp": "conflict-deaths-per-capita-640.webp",
+        "jpg": "conflict-deaths-per-capita-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "logical_name": "life-expectancy-trends",
+    "alt_text": "Life expectancy trends",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "life-expectancy-trends-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "life-expectancy-trends",
+        "width": 1600,
+        "webp": "life-expectancy-trends-1600.webp",
+        "jpg": "life-expectancy-trends-1600.jpg"
+      },
+      {
+        "logical_name": "life-expectancy-trends",
+        "width": 1024,
+        "webp": "life-expectancy-trends-1024.webp",
+        "jpg": "life-expectancy-trends-1024.jpg"
+      },
+      {
+        "logical_name": "life-expectancy-trends",
+        "width": 640,
+        "webp": "life-expectancy-trends-640.webp",
+        "jpg": "life-expectancy-trends-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "logical_name": "child-mortality",
+    "alt_text": "Child mortality",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "child-mortality-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "child-mortality",
+        "width": 1600,
+        "webp": "child-mortality-1600.webp",
+        "jpg": "child-mortality-1600.jpg"
+      },
+      {
+        "logical_name": "child-mortality",
+        "width": 1024,
+        "webp": "child-mortality-1024.webp",
+        "jpg": "child-mortality-1024.jpg"
+      },
+      {
+        "logical_name": "child-mortality",
+        "width": 640,
+        "webp": "child-mortality-640.webp",
+        "jpg": "child-mortality-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "logical_name": "extreme-poverty-share",
+    "alt_text": "Extreme poverty share",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "extreme-poverty-share-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "extreme-poverty-share",
+        "width": 1600,
+        "webp": "extreme-poverty-share-1600.webp",
+        "jpg": "extreme-poverty-share-1600.jpg"
+      },
+      {
+        "logical_name": "extreme-poverty-share",
+        "width": 1024,
+        "webp": "extreme-poverty-share-1024.webp",
+        "jpg": "extreme-poverty-share-1024.jpg"
+      },
+      {
+        "logical_name": "extreme-poverty-share",
+        "width": 640,
+        "webp": "extreme-poverty-share-640.webp",
+        "jpg": "extreme-poverty-share-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "logical_name": "literacy-trends",
+    "alt_text": "Literacy trends",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "literacy-trends-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "literacy-trends",
+        "width": 1600,
+        "webp": "literacy-trends-1600.webp",
+        "jpg": "literacy-trends-1600.jpg"
+      },
+      {
+        "logical_name": "literacy-trends",
+        "width": 1024,
+        "webp": "literacy-trends-1024.webp",
+        "jpg": "literacy-trends-1024.jpg"
+      },
+      {
+        "logical_name": "literacy-trends",
+        "width": 640,
+        "webp": "literacy-trends-640.webp",
+        "jpg": "literacy-trends-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "logical_name": "democracy-population",
+    "alt_text": "Democracy population",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "democracy-population-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "democracy-population",
+        "width": 1600,
+        "webp": "democracy-population-1600.webp",
+        "jpg": "democracy-population-1600.jpg"
+      },
+      {
+        "logical_name": "democracy-population",
+        "width": 1024,
+        "webp": "democracy-population-1024.webp",
+        "jpg": "democracy-population-1024.jpg"
+      },
+      {
+        "logical_name": "democracy-population",
+        "width": 640,
+        "webp": "democracy-population-640.webp",
+        "jpg": "democracy-population-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "logical_name": "universal-voting-rights",
+    "alt_text": "Universal voting rights",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "universal-voting-rights-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "universal-voting-rights",
+        "width": 1600,
+        "webp": "universal-voting-rights-1600.webp",
+        "jpg": "universal-voting-rights-1600.jpg"
+      },
+      {
+        "logical_name": "universal-voting-rights",
+        "width": 1024,
+        "webp": "universal-voting-rights-1024.webp",
+        "jpg": "universal-voting-rights-1024.jpg"
+      },
+      {
+        "logical_name": "universal-voting-rights",
+        "width": 640,
+        "webp": "universal-voting-rights-640.webp",
+        "jpg": "universal-voting-rights-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "logical_name": "renewable-electricity",
+    "alt_text": "Renewable electricity",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "renewable-electricity-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "renewable-electricity",
+        "width": 1600,
+        "webp": "renewable-electricity-1600.webp",
+        "jpg": "renewable-electricity-1600.jpg"
+      },
+      {
+        "logical_name": "renewable-electricity",
+        "width": 1024,
+        "webp": "renewable-electricity-1024.webp",
+        "jpg": "renewable-electricity-1024.jpg"
+      },
+      {
+        "logical_name": "renewable-electricity",
+        "width": 640,
+        "webp": "renewable-electricity-640.webp",
+        "jpg": "renewable-electricity-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "logical_name": "us-contributions-overview",
+    "alt_text": "Us contributions overview",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "us-contributions-overview-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "us-contributions-overview",
+        "width": 1600,
+        "webp": "us-contributions-overview-1600.webp",
+        "jpg": "us-contributions-overview-1600.jpg"
+      },
+      {
+        "logical_name": "us-contributions-overview",
+        "width": 1024,
+        "webp": "us-contributions-overview-1024.webp",
+        "jpg": "us-contributions-overview-1024.jpg"
+      },
+      {
+        "logical_name": "us-contributions-overview",
+        "width": 640,
+        "webp": "us-contributions-overview-640.webp",
+        "jpg": "us-contributions-overview-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "logical_name": "famine-deaths",
+    "alt_text": "Famine deaths",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "famine-deaths-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "famine-deaths",
+        "width": 1600,
+        "webp": "famine-deaths-1600.webp",
+        "jpg": "famine-deaths-1600.jpg"
+      },
+      {
+        "logical_name": "famine-deaths",
+        "width": 1024,
+        "webp": "famine-deaths-1024.webp",
+        "jpg": "famine-deaths-1024.jpg"
+      },
+      {
+        "logical_name": "famine-deaths",
+        "width": 640,
+        "webp": "famine-deaths-640.webp",
+        "jpg": "famine-deaths-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "logical_name": "wheat-yields-1800-2004",
+    "alt_text": "Wheat yields 1800 2004",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "wheat-yields-1800-2004-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "wheat-yields-1800-2004",
+        "width": 1600,
+        "webp": "wheat-yields-1800-2004-1600.webp",
+        "jpg": "wheat-yields-1800-2004-1600.jpg"
+      },
+      {
+        "logical_name": "wheat-yields-1800-2004",
+        "width": 1024,
+        "webp": "wheat-yields-1800-2004-1024.webp",
+        "jpg": "wheat-yields-1800-2004-1024.jpg"
+      },
+      {
+        "logical_name": "wheat-yields-1800-2004",
+        "width": 640,
+        "webp": "wheat-yields-1800-2004-640.webp",
+        "jpg": "wheat-yields-1800-2004-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "logical_name": "green-revolution-diffusion",
+    "alt_text": "Green revolution diffusion",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "green-revolution-diffusion-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "green-revolution-diffusion",
+        "width": 1600,
+        "webp": "green-revolution-diffusion-1600.webp",
+        "jpg": "green-revolution-diffusion-1600.jpg"
+      },
+      {
+        "logical_name": "green-revolution-diffusion",
+        "width": 1024,
+        "webp": "green-revolution-diffusion-1024.webp",
+        "jpg": "green-revolution-diffusion-1024.jpg"
+      },
+      {
+        "logical_name": "green-revolution-diffusion",
+        "width": 640,
+        "webp": "green-revolution-diffusion-640.webp",
+        "jpg": "green-revolution-diffusion-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "logical_name": "polio-cases-trends",
+    "alt_text": "Polio cases trends",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "polio-cases-trends-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "polio-cases-trends",
+        "width": 1600,
+        "webp": "polio-cases-trends-1600.webp",
+        "jpg": "polio-cases-trends-1600.jpg"
+      },
+      {
+        "logical_name": "polio-cases-trends",
+        "width": 1024,
+        "webp": "polio-cases-trends-1024.webp",
+        "jpg": "polio-cases-trends-1024.jpg"
+      },
+      {
+        "logical_name": "polio-cases-trends",
+        "width": 640,
+        "webp": "polio-cases-trends-640.webp",
+        "jpg": "polio-cases-trends-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "logical_name": "smallpox-cases",
+    "alt_text": "Smallpox cases",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "smallpox-cases-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "smallpox-cases",
+        "width": 1600,
+        "webp": "smallpox-cases-1600.webp",
+        "jpg": "smallpox-cases-1600.jpg"
+      },
+      {
+        "logical_name": "smallpox-cases",
+        "width": 1024,
+        "webp": "smallpox-cases-1024.webp",
+        "jpg": "smallpox-cases-1024.jpg"
+      },
+      {
+        "logical_name": "smallpox-cases",
+        "width": 640,
+        "webp": "smallpox-cases-640.webp",
+        "jpg": "smallpox-cases-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "logical_name": "hiv-aids-deaths-share",
+    "alt_text": "Hiv aids deaths share",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "hiv-aids-deaths-share-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "hiv-aids-deaths-share",
+        "width": 1600,
+        "webp": "hiv-aids-deaths-share-1600.webp",
+        "jpg": "hiv-aids-deaths-share-1600.jpg"
+      },
+      {
+        "logical_name": "hiv-aids-deaths-share",
+        "width": 1024,
+        "webp": "hiv-aids-deaths-share-1024.webp",
+        "jpg": "hiv-aids-deaths-share-1024.jpg"
+      },
+      {
+        "logical_name": "hiv-aids-deaths-share",
+        "width": 640,
+        "webp": "hiv-aids-deaths-share-640.webp",
+        "jpg": "hiv-aids-deaths-share-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "logical_name": "nuclear-warhead-stockpiles",
+    "alt_text": "Nuclear warhead stockpiles",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "nuclear-warhead-stockpiles-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "nuclear-warhead-stockpiles",
+        "width": 1600,
+        "webp": "nuclear-warhead-stockpiles-1600.webp",
+        "jpg": "nuclear-warhead-stockpiles-1600.jpg"
+      },
+      {
+        "logical_name": "nuclear-warhead-stockpiles",
+        "width": 1024,
+        "webp": "nuclear-warhead-stockpiles-1024.webp",
+        "jpg": "nuclear-warhead-stockpiles-1024.jpg"
+      },
+      {
+        "logical_name": "nuclear-warhead-stockpiles",
+        "width": 640,
+        "webp": "nuclear-warhead-stockpiles-640.webp",
+        "jpg": "nuclear-warhead-stockpiles-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "logical_name": "ozone-dobson-trends",
+    "alt_text": "Ozone dobson trends",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "ozone-dobson-trends-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "ozone-dobson-trends",
+        "width": 1600,
+        "webp": "ozone-dobson-trends-1600.webp",
+        "jpg": "ozone-dobson-trends-1600.jpg"
+      },
+      {
+        "logical_name": "ozone-dobson-trends",
+        "width": 1024,
+        "webp": "ozone-dobson-trends-1024.webp",
+        "jpg": "ozone-dobson-trends-1024.jpg"
+      },
+      {
+        "logical_name": "ozone-dobson-trends",
+        "width": 640,
+        "webp": "ozone-dobson-trends-640.webp",
+        "jpg": "ozone-dobson-trends-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "logical_name": "montreal-protocol",
+    "alt_text": "Montreal protocol",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "montreal-protocol-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "montreal-protocol",
+        "width": 1600,
+        "webp": "montreal-protocol-1600.webp",
+        "jpg": "montreal-protocol-1600.jpg"
+      },
+      {
+        "logical_name": "montreal-protocol",
+        "width": 1024,
+        "webp": "montreal-protocol-1024.webp",
+        "jpg": "montreal-protocol-1024.jpg"
+      },
+      {
+        "logical_name": "montreal-protocol",
+        "width": 640,
+        "webp": "montreal-protocol-640.webp",
+        "jpg": "montreal-protocol-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "logical_name": "foreign-aid-donors",
+    "alt_text": "Foreign aid donors",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "foreign-aid-donors-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "foreign-aid-donors",
+        "width": 1600,
+        "webp": "foreign-aid-donors-1600.webp",
+        "jpg": "foreign-aid-donors-1600.jpg"
+      },
+      {
+        "logical_name": "foreign-aid-donors",
+        "width": 1024,
+        "webp": "foreign-aid-donors-1024.webp",
+        "jpg": "foreign-aid-donors-1024.jpg"
+      },
+      {
+        "logical_name": "foreign-aid-donors",
+        "width": 640,
+        "webp": "foreign-aid-donors-640.webp",
+        "jpg": "foreign-aid-donors-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "logical_name": "migration-destination-countries",
+    "alt_text": "Migration destination countries",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "migration-destination-countries-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "migration-destination-countries",
+        "width": 1600,
+        "webp": "migration-destination-countries-1600.webp",
+        "jpg": "migration-destination-countries-1600.jpg"
+      },
+      {
+        "logical_name": "migration-destination-countries",
+        "width": 1024,
+        "webp": "migration-destination-countries-1024.webp",
+        "jpg": "migration-destination-countries-1024.jpg"
+      },
+      {
+        "logical_name": "migration-destination-countries",
+        "width": 640,
+        "webp": "migration-destination-countries-640.webp",
+        "jpg": "migration-destination-countries-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "logical_name": "successful-interventions-i",
+    "alt_text": "Successful interventions i",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "successful-interventions-i-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "successful-interventions-i",
+        "width": 1600,
+        "webp": "successful-interventions-i-1600.webp",
+        "jpg": "successful-interventions-i-1600.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-i",
+        "width": 1024,
+        "webp": "successful-interventions-i-1024.webp",
+        "jpg": "successful-interventions-i-1024.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-i",
+        "width": 640,
+        "webp": "successful-interventions-i-640.webp",
+        "jpg": "successful-interventions-i-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "logical_name": "successful-interventions-ii",
+    "alt_text": "Successful interventions ii",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "successful-interventions-ii-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "successful-interventions-ii",
+        "width": 1600,
+        "webp": "successful-interventions-ii-1600.webp",
+        "jpg": "successful-interventions-ii-1600.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-ii",
+        "width": 1024,
+        "webp": "successful-interventions-ii-1024.webp",
+        "jpg": "successful-interventions-ii-1024.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-ii",
+        "width": 640,
+        "webp": "successful-interventions-ii-640.webp",
+        "jpg": "successful-interventions-ii-640.jpg"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "logical_name": "successful-interventions-iii",
+    "alt_text": "Successful interventions iii",
+    "attribution": "Original attribution preserved from document",
+    "lqip_file": "successful-interventions-iii-lqip.txt",
+    "sizes": [
+      {
+        "logical_name": "successful-interventions-iii",
+        "width": 1600,
+        "webp": "successful-interventions-iii-1600.webp",
+        "jpg": "successful-interventions-iii-1600.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-iii",
+        "width": 1024,
+        "webp": "successful-interventions-iii-1024.webp",
+        "jpg": "successful-interventions-iii-1024.jpg"
+      },
+      {
+        "logical_name": "successful-interventions-iii",
+        "width": 640,
+        "webp": "successful-interventions-iii-640.webp",
+        "jpg": "successful-interventions-iii-640.jpg"
+      }
+    ]
+  }
+]
