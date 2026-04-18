@@ -15,6 +15,10 @@
       font-family: Georgia, "Times New Roman", serif;
       -webkit-font-smoothing: antialiased;
     }
+	
+	p {
+	  text-align: left;
+	}
 
     /* ── Layout ── */
     .container {
@@ -22,6 +26,55 @@
       margin: 0 auto;
       padding: 0 16px;
     }
+	
+	/* ── Text Readability ── */
+	section p, 
+	section h2 {
+	  max-width: 800px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	/* ── Footer ── */
+	.site-footer {
+	  border-top: 1px solid #eaeaea;
+	  padding: 40px 0;
+	  margin-top: 60px;
+	  background-color: #fff;
+	}
+
+	.footer-container {
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  padding: 0 16px; 
+	  text-align: center; /* This centers the contents */
+	}
+	
+	.footer-credits {
+	  color: #666;
+	  font-size: 0.9em;
+	  margin: 0;
+	  text-align: center; /* This explicitly overrides your global p alignment */
+	}
+
+	.back-to-top {
+	  display: inline-block;
+	  margin-bottom: 16px;
+	  font-size: 1.1em;
+	  color: #333;
+	  text-decoration: none;
+	  font-weight: bold;
+	}
+
+	.back-to-top:hover {
+	  text-decoration: underline;
+	}
+
+	.footer-credits {
+	  color: #666;
+	  font-size: 0.9em;
+	  margin: 0;
+	}
 
     /* ── Hero ── */
     header.hero img {
@@ -68,6 +121,120 @@
       #overview-has-us-been-good p { font-size: 1em; }
       .container { padding: 0 12px; }
     }
+	
+	/* ── Top Navigation ── */
+	.top-nav {
+	  margin: 40px auto;
+	  padding: 0 16px;
+	  max-width: 800px; /* Aligns the menu with your overview text width */
+	}
+
+	.top-nav ul {
+	  list-style: none;
+	  padding: 0;
+	  margin: 0;
+	  display: flex;
+	  flex-direction: column; /* Forces a single vertical column */
+	  gap: 12px;
+	}
+
+	.top-nav li a {
+	  color: #444;
+	  text-decoration: none;
+	  border-bottom: 1px solid transparent;
+	}
+
+	.top-nav li a:hover {
+	  color: #000;
+	  border-bottom-color: #000;
+	}
+
+	/* ── Indentation & Typography based on Header Level ── */
+	.toc-level-1 {
+	  margin-left: 0;
+	}
+	.toc-level-1 a {
+	  font-weight: bold;
+	  font-size: 1.15em;
+	  color: #222;
+	}
+
+	.toc-level-2 {
+	  margin-left: 30px; /* Indents images and H2 tags */
+	}
+	.toc-level-2 a {
+	  font-size: 1em;
+	}
+
+	.toc-level-3 {
+	  margin-left: 60px; /* Indents H3 tags */
+	}
+	.toc-level-3 a {
+	  font-size: 0.9em;
+	  color: #666;
+	}
+
+	/* Mobile adjustments for indentation to prevent text from being pushed too far off-screen */
+	@media (max-width: 600px) {
+	  .toc-level-2 { margin-left: 15px; }
+	  .toc-level-3 { margin-left: 30px; }
+	}
+	
+	/* ── Visually Hidden (Accessibility) ── */
+	.visually-hidden {
+	  position: absolute;
+	  width: 1px;
+	  height: 1px;
+	  padding: 0;
+	  margin: -1px;
+	  overflow: hidden;
+	  clip: rect(0, 0, 0, 0);
+	  white-space: nowrap;
+	  border: 0;
+	}
+	
+	/* ── Accordion Styles ── */
+	.top-nav details {
+	  background-color: #fcfcfc;
+	  border: 1px solid #eaeaea;
+	  border-radius: 6px;
+	  padding: 12px 16px;
+	}
+
+	.top-nav summary {
+	  font-weight: bold;
+	  font-size: 1.1em;
+	  color: #333;
+	  cursor: pointer;
+	  list-style: none; /* Removes default arrow in modern browsers */
+	  outline: none;
+	}
+
+	/* Hide default arrow in Safari */
+	.top-nav summary::-webkit-details-marker {
+	  display: none;
+	}
+
+	/* Custom arrow indicator */
+	.top-nav summary::before {
+	  content: '►';
+	  font-size: 0.8em;
+	  color: #777;
+	  display: inline-block;
+	  margin-right: 8px;
+	  transition: transform 0.2s ease-in-out;
+	}
+
+	/* Rotate arrow when open */
+	.top-nav details[open] summary::before {
+	  transform: rotate(90deg);
+	}
+
+	.top-nav details[open] ul {
+	  margin-top: 16px;
+	  padding-top: 16px;
+	  border-top: 1px dashed #ddd;
+	}
   </style>
 </head>
 <body>
@@ -91,15 +258,21 @@
                  width="1600" height="auto">
           </picture>
   </header>
-
-  <div class="separator" aria-hidden="true">* * *</div>
+  
+<nav aria-label="Table of Contents" class="top-nav">
+  <details>
+    <summary>Table of Contents</summary>
+    <ul id="dynamic-top-menu">
+      </ul>
+  </details>
+</nav>
 
   <section id="overview-has-us-been-good">
     <h1>Has the United States been good for the world?</h1>
     <p>The following charts are not proof that the United States caused modern global progress. They do, however, complicate any simple claim that U.S. global leadership has mainly been bad for the world.</p>
   </section>
 
-  <div class="separator" aria-hidden="true">* * *</div>
+  <div class="separator" aria-hidden="true">⚕</div>
 
 
   <section id="conflict-deaths-per-capita">
@@ -260,9 +433,10 @@
           </picture>
   </section>
 
-  <div class="separator" aria-hidden="true">* * *</div>
+  <div class="separator" aria-hidden="true">🔬</div>
 
   <section id="us-contributions-overview">
+	<h1 class="visually-hidden">U.S. Contributions Overview</h1>
     <picture>
             <source type="image/webp"
                     srcset="https://raw.githubusercontent.com/usledworld/usledworld/main/us-contributions-overview-1600.webp 1600w,
@@ -280,7 +454,7 @@
           </picture>
   </section>
 
-  <div class="separator" aria-hidden="true">* * *</div>
+  <div class="separator" aria-hidden="true">🔭</div>
 
   <section id="famine-deaths">
     <picture>
@@ -480,61 +654,137 @@
           </picture>
   </section>
 
-  <div class="separator" aria-hidden="true">* * *</div>
+  <div class="separator" aria-hidden="true">🌿</div>
 
 <section id="successful-interventions"> 
-    <h2>Successful U.S. Military Interventions</h2> 
+    <h1>Successful U.S. Military Interventions</h1> 
     
-    <h3>Japan (World War II & Post-War Occupation)</h3>
+    <h2>Japan (World War II & Post-War Occupation)</h2>
     <p>The US military intervention and subsequent occupation of Japan (1945-1952) dismantled its imperial military apparatus and helped rebuild the devastated nation into a peaceful, democratic economic powerhouse. Under the direction of the Allied occupation forces, sweeping land reforms were implemented, economic monopolies were broken up, and a new constitution was drafted that established a parliamentary democracy and famously renounced the right to wage war (Article 9). These foundational changes, paired with vital economic relief, transitioned Japan from an authoritarian empire into one of the most stable democracies and robust economies in the modern world, fundamentally altering the trajectory of East Asia toward peace and technological advancement.</p>
 
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Germany (World War II & Post-War Reconstruction)</h3>
+    <h2>Germany (World War II & Post-War Reconstruction)</h2>
     <p>The Allied intervention in Germany successfully eradicated the Nazi regime—ending the Holocaust and liberating a continent from totalitarian conquest—before immediately pivoting to a massive reconstruction effort. Through the Marshall Plan and the eventual establishment of the Federal Republic of Germany (West Germany), the US and its allies poured billions of dollars into rebuilding infrastructure, revitalizing industries, and establishing democratic institutions. This commitment not only prevented the starvation and economic collapse that plagued post-WWI Germany but also integrated West Germany into the Western alliance, turning a former adversary into a bedrock of European stability, human rights, and the eventual European Union.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Western Europe (World War II)</h3>
+    <h2>Western Europe (World War II)</h2>
     <p>In the broader theater of Western Europe, the US military intervention—most notably the liberation of France, Belgium, and the Netherlands—freed millions from brutal occupation and restored sovereign, democratic governments. The immense logistical and combat effort of the Allied forces destroyed the infrastructure of fascist control, halting forced labor and systemic oppression across the continent. Following the war, continued US military presence and massive economic aid staved off widespread famine, facilitated rapid economic recovery, and laid the groundwork for NATO, ensuring decades of unprecedented peace and cooperative prosperity among Western European nations.</p>
  
-   <div class="separator" aria-hidden="true">* *</div>
+   <div class="separator" aria-hidden="true">* * *</div>
  
-    <h3>South Korea (Korean War & Post-War Alliance)</h3>
+    <h2>South Korea (Korean War & Post-War Alliance)</h2>
     <p>The US-led United Nations intervention in the Korean War (1950-1953) successfully repelled the North Korean invasion, preventing the absorption of the entire peninsula by a totalitarian communist regime. Although the devastating conflict ended in an armistice rather than a definitive peace treaty, the establishment of the Demilitarized Zone (DMZ) and a mutual defense treaty with the United States guaranteed South Korea's survival. Under this enduring security umbrella, South Korea transitioned over the subsequent decades from an impoverished, war-torn nation into one of the world's most vibrant democracies and advanced economies. This rapid post-war industrialization, known as the "Miracle on the Han River," cemented South Korea as a vital global technological powerhouse and a cornerstone of democratic stability in East Asia.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Operation Restore Hope (Somalia, 1992-1993)</h3>
+    <h2>Operation Restore Hope (Somalia, 1992-1993)</h2>
     <p>While this mission is often remembered for how it ended (the tragic "Black Hawk Down" battle in Mogadishu), its initial phase was highly successful. Warlords had been stealing food aid, causing a famine that had already killed 300,000 people. The US deployment of 25,000 troops secured the ports and roads, allowing aid to reach the interior. It is estimated that this initial intervention saved upwards of 100,000 Somali lives.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Operation Provide Comfort (Northern Iraq, 1991)</h3>
+    <h2>Operation Provide Comfort (Northern Iraq, 1991)</h2>
     <p>Following the Gulf War, Saddam Hussein brutally suppressed a Kurdish uprising. Over a million Kurds fled into the freezing mountains without food or shelter. The US military, alongside coalition partners, established a no-fly zone and executed a massive logistics operation, dropping food, blankets, and tents. This operation is credited with saving tens of thousands of Kurdish refugees from dying of exposure and starvation.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Operation Allied Force (Kosovo, 1999)</h3>
+    <h2>Operation Allied Force (Kosovo, 1999)</h2>
     <p>Similar to Bosnia, the US led a NATO bombing campaign against Yugoslavia to halt the brutal ethnic cleansing of Albanian Kosovars by Serbian forces. The 78-day air campaign forced Serbian leader Slobodan Milošević to withdraw his troops, allowing hundreds of thousands of refugees to return home safely.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Bosnia (1995)</h3>
+    <h2>Bosnia (1995)</h2>
     <p>The 1995 NATO bombing campaign in Bosnia not only halted the immediate horrors of ethnic cleansing but fundamentally forced the creation of the Dayton Agreement, establishing a lasting, albeit complex, peace in the Balkans. By crippling the Bosnian Serb military infrastructure, the intervention ended the multi-year siege of Sarajevo and forced all warring parties to the negotiating table. The resulting political framework, heavily backed by an influx of US and NATO peacekeeping forces (IFOR/SFOR), successfully prevented the resumption of armed conflict, allowed hundreds of thousands of refugees to return, and transitioned Bosnia and Herzegovina toward eventual European integration.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Liberia (2003)</h3>
+    <h2>Liberia (2003)</h2>
     <p>The 2003 US intervention in Liberia acted as a vital catalyst for the nation's democratic transition, permanently ending 14 years of devastating civil war and paving the way for long-term stability. By securing Monrovia and forcing warlord-turned-president Charles Taylor into exile, the US military created the breathing room necessary for international peacekeepers to disarm rebel factions and for civil society to rebuild. This stabilization directly enabled the historic 2005 elections of Ellen Johnson Sirleaf, Africa's first democratically elected female head of state, under whose leadership Liberia began a steady path of institutional reform, economic recovery, and a sustained peace that holds today.</p>
 	
-  <div class="separator" aria-hidden="true">* *</div>
+  <div class="separator" aria-hidden="true">* * *</div>
     
-    <h3>Operation Inherent Resolve / Mount Sinjar (Iraq, 2014)</h3>
+    <h2>Operation Inherent Resolve / Mount Sinjar (Iraq, 2014)</h2>
     <p>When ISIS forces surrounded Mount Sinjar, they trapped roughly 40,000 members of the Yazidi religious minority, threatening them with imminent genocide and starvation. US airstrikes broke the ISIS siege lines, while military cargo planes dropped millions of pounds of food and water, directly saving the trapped population.</p>
   </section>
+  
+    <div class="separator" aria-hidden="true">🍃</div>
 
 </div>
+
+</div> <footer class="site-footer">
+    <div class="footer-container">
+      <a href="#" class="back-to-top">Back to Top</a>
+      <p class="footer-credits">Information compiled by USLedWorld.com, 2026.</p>
+    </div>
+  </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const menu = document.getElementById("dynamic-top-menu");
+    const sections = document.querySelectorAll("section[id]");
+    
+    sections.forEach(function(sec) {
+      let linkText = sec.id.replace(/-/g, ' '); 
+      let level = 1;
+      
+      const h1 = sec.querySelector("h1");
+      const h2 = sec.querySelector("h2");
+      const img = sec.querySelector("img");
+      
+      let mainHeading = null;
+      
+      // Determine the level and text for the main section link
+      if (h1) {
+        linkText = h1.textContent;
+        level = 1;
+        mainHeading = h1;
+      } else if (h2) {
+        linkText = h2.textContent;
+        level = 2;
+        mainHeading = h2;
+      } else if (img && img.alt) {
+        linkText = img.alt;
+        level = 2;
+      } else {
+        linkText = linkText.charAt(0).toUpperCase() + linkText.slice(1);
+        level = 2;
+      }
+      
+      appendLink(menu, linkText, "#" + sec.id, level);
+      
+      // Capture nested sub-headings to create indented links
+      const subHeadings = sec.querySelectorAll("h2, h3");
+      subHeadings.forEach(function(subHead, index) {
+        // Skip the heading if we already used it for the main section title
+        if (subHead === mainHeading) return;
+        
+        // Apply styling level based on the tag name
+        const subLevel = subHead.tagName.toLowerCase() === 'h2' ? 2 : 3;
+        
+        // Ensure the sub-heading has an ID for the anchor link
+        if (!subHead.id) {
+          subHead.id = sec.id + "-sub-" + (index + 1);
+        }
+        
+        appendLink(menu, subHead.textContent, "#" + subHead.id, subLevel);
+      });
+    });
+
+    // Helper function to build and append the list items
+    function appendLink(parent, text, href, level) {
+      const listItem = document.createElement("li");
+      listItem.className = "toc-level-" + level;
+      
+      const anchor = document.createElement("a");
+      anchor.href = href;
+      anchor.textContent = text;
+      
+      listItem.appendChild(anchor);
+      parent.appendChild(listItem);
+    }
+  });
+</script>
 
 </body>
 </html>
